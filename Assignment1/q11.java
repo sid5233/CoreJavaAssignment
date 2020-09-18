@@ -1,3 +1,5 @@
+package Assignment.Assignment1;
+
 import java.util.Scanner;
 
 public class q11 {
