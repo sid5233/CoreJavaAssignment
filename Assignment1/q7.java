@@ -13,7 +13,8 @@ class q7 {
         int sum = s1+s2+s3+s4+s5;
         float perc = (sum*100)/500;
         //System.out.println("percentage : " +perc);
-        System.out.format(" Percentage Marks = %.3f " +perc );
+//        System.out.format(" Percentage Marks = %.3f " +perc+ "[%]" );
+        System.out.println(" Percentage Marks = " +perc+  "%" );
         sc.close();
     }
 }
