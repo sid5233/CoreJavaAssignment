@@ -1,10 +1,11 @@
 import java.util.Scanner;
-class q34 {
+class circleDemo {
     private float radius;
     private double area;
 
     void init(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Radius : "); 
         radius = sc.nextFloat();
     }
     void area(){
@@ -15,11 +16,11 @@ class q34 {
         System.out.println("Area is : "+area);
     }
 }
-class circleDemo {
+public class q34 {
     public static void main(String[] args) {
-        q34 cir = new q34();
-        cir.init();
-        cir.area();
-        cir.display();
+        circleDemo obj1 = new circleDemo();
+        obj1.init();
+        obj1.area();
+        obj1.display();
     }
 }

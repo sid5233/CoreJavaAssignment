@@ -1,4 +1,4 @@
-class q31 {
+class studentDemo1 {
   private int rno;
   private String name;
  
@@ -12,11 +12,11 @@ class q31 {
     System.out.println(name);
   }
 }
-class studentDemo1 {
+class q31 {
     public static void main(String[] args) {
-      q31 obj1 = new q31();
+      studentDemo1 obj1 = new studentDemo1();
       obj1.setData1(1, "sudarshan");
       obj1.showData1();
- 
+
     }
 }

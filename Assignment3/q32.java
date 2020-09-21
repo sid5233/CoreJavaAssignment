@@ -1,27 +1,46 @@
-class q32 {
-    private int rno;
-    private String name;
-    private static int objcounter=0;
-  
-    void setData1(int rno1, String name1) {
-      this.rno = rno1;
-      this.name = name1;
-      objcounter++;    
-    }
-  
-    void showData1() {
-      System.out.println(rno);
-      System.out.println(name);
-    }
-  }
-  class studentDemo2 {
-      public static void main(String[] args) {
-        q31 obj1 = new q31();
-        obj1.setData1(1, "sudarshan");
-        obj1.showData1();
-        q31 obj2 = new q31();
-        obj2.setData1(2, "Vinay");
-        obj2.showData1();
-      }
-  }
-  
+import java.util.Scanner;
+class Student{
+	
+	private int rollno;
+	private String name;
+	private static int objCount;
+	
+	void setData(int rollno, String name){
+	this.rollno=rollno;
+	this.name=name;
+	ObjCounter();
+		}
+
+	void ObjCounter(){
+	    objCount++;
+		}
+
+                    int getObjCounter(){
+	  return objCount;
+	}
+	
+	void showData(){
+	System.out.println(rollno+" "+name);
+	      }
+
+	}	
+
+class q32{
+public static void main(String args[]){
+                         Student s =new Student();
+	       s.setData(20,"Cristiano");
+	       s.showData();
+	        
+                         Student s1=new Student();
+	       s1.setData(2,"James");
+	       s1.showData();
+	      
+	       Student s2=new Student();
+	       s2.setData(3,"Gareth");
+	       s2.showData();
+
+	       System.out.println("object counter: "+s2.getObjCounter());
+             
+ 
+	}
+}
