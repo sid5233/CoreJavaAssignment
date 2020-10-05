@@ -1,0 +1,17 @@
+class oneBHK {
+	int roomArea;
+	int hallArea;
+	static int price;
+	
+	oneBHK(){
+		this.roomArea = 15;
+		this.hallArea = 20;
+		
+		thsi.price = 2000;
+	}
+}
+public class que43 {
+	public static void main(String[] args) {
+	
+	}
+}

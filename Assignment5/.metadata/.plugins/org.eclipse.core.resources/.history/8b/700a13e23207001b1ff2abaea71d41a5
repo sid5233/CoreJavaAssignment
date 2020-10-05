@@ -1,0 +1,61 @@
+class Student {
+	public static int rno;
+	int rollno;
+	float percentage;
+	
+	public Student() {
+		this.rollno = ++rno;
+	}
+	Student( float per){
+		this.percentage = per;
+		this.rollno = ++rno;
+	}
+	void show() {
+		System.out.println("Roll No :"+rollno);
+		System.out.println("Percentage : "+percentage);
+	}
+	int getRN () {
+		return this.rollno;
+	}
+	float getPer() {
+		return this.percentage;
+	}
+}
+
+class collegeStudent extends Student {
+	int semester;
+	public collegeStudent() {
+		 this.semester = 1;
+	}
+	collegeStudent(float per , int sem){
+		super(per);
+		this.semester = sem;
+	}
+	void show() {
+		super.show();
+		System.out.println("Semester : "+this.semester);
+	}
+}
+class schollStudent extends Student{
+	String className;
+	public schollStudent() {
+		this.className = "12th";
+	}
+	public schollStudent(int perc,String classname){
+		super(perc);
+		this.className = classname;
+	}
+	void show() {
+		super.show();
+		System.out.println("ClassName : "+className);
+	}
+}
+
+public class que45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

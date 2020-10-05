@@ -1,0 +1,21 @@
+class Student {
+	int rollno;
+	float percentage;
+	
+	public Student() {
+	
+	}
+	Student(int roll,float per){
+		this.percentage = per;
+		this.rollno = roll;
+	}
+}
+
+public class que45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

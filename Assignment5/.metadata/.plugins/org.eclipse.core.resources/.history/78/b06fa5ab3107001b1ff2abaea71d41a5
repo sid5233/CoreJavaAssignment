@@ -1,0 +1,40 @@
+class Student {
+	public static int rno;
+	int rollno;
+	float percentage;
+	
+	public Student() {
+		this.rollno = ++rno;
+	}
+	Student( float per){
+		this.percentage = per;
+		this.rollno = ++rno;
+	}
+	void show() {
+		System.out.println("Roll No :"+rollno);
+		System.out.println("Percentage : "+percentage);
+	}
+	float getRN () {
+		return this.rollno;
+	}
+	int getPer() {
+		return this.percentage;
+	}
+}
+
+class collegeStudent extends Student {
+	int semester;
+	public collegeStudent() {
+
+	}
+	
+}
+
+public class que45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

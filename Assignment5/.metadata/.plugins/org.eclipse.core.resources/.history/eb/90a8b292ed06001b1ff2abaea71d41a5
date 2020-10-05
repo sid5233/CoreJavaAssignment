@@ -1,0 +1,30 @@
+class Tile {
+	private int eLength;
+	public int getTile() {
+		return this.eLength;
+	}
+	
+	public void setTile(int length) {
+		this.eLength =length;
+	}
+	public int tileArea() {
+		return(this.eLength)*(this.eLength);
+	}
+}
+class floor{
+	int fLength;
+	int fWidth;
+	
+	public void totalTiles(Tile t) {
+		double sqArea=t.tileArea();
+		double flArea = FloorArea();
+	}
+}
+
+public class que42 {
+
+	
+	public static void main(String[] args) {
+	
+	}
+}

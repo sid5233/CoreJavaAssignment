@@ -1,0 +1,37 @@
+class Faculty{
+	int facultyId;
+	int salary;
+	
+	void input(int facultyId) {
+		this.facultyId = facultyId;
+	}
+	void printSalary() {
+		System.out.println("Salary is : "+salary);
+	}
+}
+
+class FullTimeFaculty extends Faculty{
+	int basicSalary;
+	int allowance;
+	
+	void input(int basicSalary, int allowance) {
+		this.basicSalary = basicSalary;
+		this.allowance = allowance;
+	}
+}
+
+class PartTimeFaculty extends Faculty {
+	int workingHour;
+	int ratePerHour;
+	
+	void input(){
+	
+	}
+public class que44 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

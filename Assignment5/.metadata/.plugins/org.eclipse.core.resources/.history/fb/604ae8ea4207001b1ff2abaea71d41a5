@@ -1,0 +1,25 @@
+interface Taxable {
+	double salesTax = 7;
+	double incomeTax = 10.5;
+	
+	void calTax();
+}
+class Employee implements Taxable{
+	int empid;
+	String name;
+	double salary;
+	
+	public Employee(int empid,String name,double salary) {
+		this.empid = empid;
+		this.name = name;
+		this.salary = salary;
+		
+	}
+}
+public class que49 {
+
+	public static void main(String[] args) {
+		 
+	}
+
+}

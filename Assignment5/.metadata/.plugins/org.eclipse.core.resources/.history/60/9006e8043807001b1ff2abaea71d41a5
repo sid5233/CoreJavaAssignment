@@ -1,0 +1,18 @@
+
+public class que47 {
+
+	public que47() {
+		this(10);
+	}
+	que47(int x){
+		this(5,10);
+		System.out.println(x);
+	}
+	que47
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

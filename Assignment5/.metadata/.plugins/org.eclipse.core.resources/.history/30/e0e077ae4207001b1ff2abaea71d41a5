@@ -1,0 +1,13 @@
+interface Taxable {
+	double salesTax = 7;
+	double incomeTax = 10.5;
+	
+	void calTax();
+}
+public class que49 {
+
+	public static void main(String[] args) {
+		 
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class que47 {
+
+	public que47() {
+		this(10);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

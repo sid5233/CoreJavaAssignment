@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+abstract class Processor{
+	int data;
+ 	void showData() {
+		System.out.println(data);
+	}
+	abstract void process(int no);
+}
+class Factorial extends Processor{
+	int result = 1;
+	void process (int no1) {
+		for(int i= no1 ;i>0; i--)
+		{
+			result=result*i;
+		}
+		
+		data=result;
+	}
+	
+}
+
+class Circle extends Processor {
+	void process (int no2){
+		int area=(int)(Math.PI*(Math.pow(no2,2)));
+		data = area;
+		}
+}
+
+public class que48 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+ 
+	}
+
+}

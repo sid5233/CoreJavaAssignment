@@ -1,0 +1,18 @@
+class PremierLeauge {
+
+class liverpool extends PremierLeauge {
+	 void method1(PremierLeauge P) {
+		if (P instanceof liverpool ) {
+			liverpool L = (liverpool)P;
+			System.out.println("DownCasting Performed");
+		}
+	}
+
+	public static void main(String[] args) {
+		PremierLeauge P = new liverpool();
+		liverpool.method1(P);
+
+	}
+
+}
+}

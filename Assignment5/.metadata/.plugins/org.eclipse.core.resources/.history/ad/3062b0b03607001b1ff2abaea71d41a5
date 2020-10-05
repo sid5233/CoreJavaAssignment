@@ -1,0 +1,14 @@
+class PremierLeauge {
+
+class liverpool extends PremierLeauge {
+	static void method(PremierLeauge P) {
+}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

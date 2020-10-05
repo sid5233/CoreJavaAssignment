@@ -1,0 +1,19 @@
+class Faculty{
+	int facultyId;
+	int salary;
+	
+	void input(int facultyId) {
+		this.facultyId = facultyId;
+	}
+	void printSalary() {
+		System.out.println("Salary is : "+salary);
+	}
+}
+public class que44 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

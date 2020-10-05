@@ -1,0 +1,14 @@
+class oneBHK {
+	int roomArea;
+	int hallArea;
+	static int price;
+	
+	oneBHK(){
+ 
+	}
+}
+public class que43 {
+	public static void main(String[] args) {
+	
+	}
+}

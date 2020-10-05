@@ -1,0 +1,25 @@
+class Student {
+	int rollno;
+	float percentage;
+	
+	public Student() {
+	
+	}
+	Student(int roll,float per){
+		this.percentage = per;
+		this.rollno = roll;
+	}
+	void show() {
+		System.out.println("Roll No :"+rollno);
+		System.out.println("Percentage : "+percentage);
+	}
+}
+
+public class que45 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

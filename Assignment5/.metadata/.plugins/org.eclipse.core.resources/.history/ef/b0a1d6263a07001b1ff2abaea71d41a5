@@ -1,0 +1,17 @@
+abstract class Processor{
+	int data;
+	abstract void process();
+	
+	void display() {
+		System.out.println(data);
+	}
+	
+}
+
+public class que48 {
+
+	public static void main(String[] args) {
+ 
+	}
+
+}

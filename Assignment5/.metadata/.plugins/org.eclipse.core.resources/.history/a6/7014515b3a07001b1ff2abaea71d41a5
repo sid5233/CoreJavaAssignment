@@ -1,0 +1,20 @@
+abstract class Processor{
+	int data;
+	abstract void process();
+	
+	void showData() {
+		System.out.println(data);
+	}
+	abstract void process(int no);
+}
+class Factorial extends Processor{
+	
+}
+
+public class que48 {
+
+	public static void main(String[] args) {
+ 
+	}
+
+}
